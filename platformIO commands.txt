@@ -1,0 +1,11 @@
+compile project
+    pio run
+
+library search by name
+    pio pkg search "header:PubSubClient.h"
+
+library install by name
+    pio lib install thingsboard/TBPubSubClient
+
+compile project and upload
+    pio run --target upload
