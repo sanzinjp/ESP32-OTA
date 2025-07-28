@@ -11,7 +11,7 @@
 #define MQTT_PORT 1883
 #define TOKEN "blyrDnUgs1dSqxTMjUp7"
 
-#define CURRENT_FW_VERSION "1.0.0"
+#define CURRENT_FW_VERSION "1.0.2"
 
 WiFiClient wifiClient;
 PubSubClient mqttClient(wifiClient);
