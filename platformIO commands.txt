@@ -10,6 +10,10 @@ library install by name
 compile project and upload
     pio run --target upload
 
+monitor Serial port
+    pio device monitor -b 115200
+    pio device monitor
+
 pio run --target clean
 pio run -t clean
 pio run -t build
