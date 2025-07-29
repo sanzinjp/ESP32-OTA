@@ -9,3 +9,8 @@ library install by name
 
 compile project and upload
     pio run --target upload
+
+pio run --target clean
+pio run -t clean
+pio run -t build
+
