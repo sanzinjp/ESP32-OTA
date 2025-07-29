@@ -2,18 +2,16 @@
 #include <ESP8266WebServer.h>
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
-
 #elif defined(ESP32)
 #include <WebServer.h>
 #include <WiFi.h>
 #include <WiFiClient.h>
-
 #endif
 
 #include <ElegantOTA.h>
 
-const char *ssid = "TP-Link_60_502";
-const char *password = "isgm1234";
+const char *ssid = "........";
+const char *password = "........";
 
 #if defined(ESP8266)
 ESP8266WebServer server(80);
