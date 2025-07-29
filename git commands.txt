@@ -1,0 +1,6 @@
+git remote remove origin
+git remote add origin https://github.com/sanzinjp/ESP32-OTA.git
+
+
+git add .
+git checkout -b ElegantOTA
